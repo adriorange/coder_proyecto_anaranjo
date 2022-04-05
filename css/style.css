@@ -1,0 +1,206 @@
+
+
+/* MIS ESTILOS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CLASES*/
+
+/* Nav */
+.body-bg{
+    background-image: url(../img/background_squares.jpg);
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+}
+
+.bg-nav-grey{	
+    background-color: #434645;
+    opacity: .7;
+}
+
+.bg-nav-aqua{	
+    background-color: #6fbdb0;
+}
+
+.text-white{	
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.text-white:hover{	
+    color: rgb(247, 239, 221);
+    font-weight: 400;
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: all 0.75s;
+}
+
+ /* Main */
+.text-titulos{	
+    color: #528e86;
+    font-size: 3rem;
+}
+
+.text-subt{	
+    color: #6fbdb0;
+    font-size: 2rem;
+}
+
+.text-med{	
+    color: #7c8180;
+    font-size: 1.5rem;
+}
+
+.text-plain{	
+    color: #252827;
+    font-size: 1.25rem;
+}
+
+.text-enunciado{	
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/*  color: rgb(247,239, 221)  */
+
+.text-quote{	
+    color: #000000;
+    font-family: 'Philosopher';
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.text-btn{	
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.text-bold{	
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.text-bold-color{	
+    color: #6fbdb0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn-aqua{	
+    color: #ffffff;
+    background-color: #6fbdb0;
+}
+
+.btn-aqua:hover{	
+    color: #ffffff;
+    background-color: #528e86;
+    font-weight: 400;
+    transform: scale(1.1);
+    transition: all 1.5s;
+}
+
+.img-circle{
+    width: 70%;
+    border-radius: 2rem;
+    margin: 5%;
+}
+
+.img-animation{
+    animation-delay: 2s;
+}
+
+.img-circle:hover{	
+    width: 80%;
+    transition: all 1.5s;
+}
+
+.bg-camel{	
+    background-color: rgb(247, 239, 221);
+}
+
+.bg-camel-light{	
+    background-color: rgb(247, 239, 221);
+    opacity: 50%;
+}
+
+
+
+/* FOOTER*/
+footer{	
+    width: 100%;
+    background-color: #ffffff;
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.anchoFooter{	
+    margin-top: 40px;
+}
+
+.redes{	
+    display: inline-block
+}
+
+.bi-linkedin{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: #6fbdb0;
+    text-decoration: none;
+}
+
+.bi-linkedin:hover {	
+    color: #528e86
+}
+
+.bi-twitter{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: #6fbdb0;
+    text-decoration: none;
+}
+
+.bi-twitter:hover {	
+    color: #528e86
+}
+
+.bi-instagram{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: #6fbdb0;
+    text-decoration: none;
+}
+
+.bi-instagram:hover {	
+    color: #528e86
+}
+
+/* prueba nav en mobile
+
+  <!-- abre nav mobile-->
+    <nav class="nav-mobile navbar-expand-sm">
+      <ul>
+        <li><a href="#Nosotros"><img src="../Bootstrap_hibrida/img/gif-nosotros.gif" alt="icono de nosotros" width="5%"></a></li>
+        <li><a href="#Servicios"><img src="../Bootstrap_hibrida/img/gif-servicios.gif" alt="iconos de servicios" width="5%"></a></li>
+        <li><a href="#Metodologias"><img src="../Bootstrap_hibrida/img/gif-metod.gif" alt="icono mtodologias" width="5%"></a></li>
+        <li><a href="#contacto"><img src="../Bootstrap_hibrida/img/gif-contacto.gif" alt="icono contacto" width="5%"></a></li>   
+      </ul>
+    </nav>
+
+    <!-- abre nav mobile--> */
+
